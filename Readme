@@ -1,0 +1,48 @@
+
+Wissam Almasri 
+account username cssc4014
+CS 530 Spring 2024
+Programing Assignment 1
+README File 
+
+file Manifest:
+- xed.cpp  
+- Makefile
+- README
+
+compile instruction:
+- go to the dirextory where the source files are located.
+- Run the command 'make'.
+- The executable 'xed' will be created. 
+
+Operating instructions:
+to run the program use the following 
+./xed options <filename>
+
+Options:
+-b          Print binary format instead of hexadecimal
+<filename>    the name of the file to view
+
+Example:
+./xed -b Makefile     that would print binary number. 
+./xed makefile        that would print Hex number.
+
+Novel/Significant Design Decisions:
+- Implemented the xed program to read and print the content of a file in either hexadecimal or binary format based on user input.
+- Utilized a Makefile for easier compilation and mangement of the project.
+- The program uses command line argument to switch bewtween hex and binary modes demonstrating a simple but effective user interface for interface based application. 
+
+Extra Features/Functionality:
+Added support for printing the contents in binary in addition to hexadecimal format.
+adjustable output: the program can be easily modified to change the number of columns in the output or to add additional output formats if needed.
+
+List/description of all know defciencies or bugs
+There is no error handiling for file reasd error that occur after the file has been successfully opened. 
+
+Lessons Learned:
+- Learned how to use edoras/linux for the firsr time. 
+- Learned how to work around the terminal and got a better idea of how it works and how it operates.
+- learned how to implemment file I/O operations in C++.
+- Working with Makefile for managing compilation and linking of multiple source files.
+- I understood more about bitwise operations for converting bytes to binary representation.
+- the most imporant thing that i learned the hard way is that readying and processing binary files in C++ requires carful attention to data types and conversions between charcter and number representation.
